@@ -116,8 +116,9 @@ public class DealCouple extends HttpServlet {
 			String lgname="";
 			String picture="";
 		
-			/*if(rs2.next()){
-				lgname = "这个人被外星人掳走了";
+			/*It doesn't work!!
+			if(rs2.next()){
+				lgname = "杩欎釜浜鸿澶栨槦浜烘幊璧颁簡";
 				picture = "nopicture.jpg";
 			}
 			rs2.previous();*/
@@ -127,7 +128,7 @@ public class DealCouple extends HttpServlet {
 				}
 				else{
 					
-					lgname = "这个人被外星人掳走了";
+					lgname = "杩欎釜浜鸿澶栨槦浜烘幊璧颁簡";
 				}
 				if(rs2.getString("pic")!=null&&!(rs2.getString("pic").equals(""))){
 					picture = rs2.getString("pic");
