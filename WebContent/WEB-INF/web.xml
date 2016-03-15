@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DealRegister</servlet-name>
+    <servlet-class>myservlet.DealRegister</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DealLogin</servlet-name>
+    <servlet-class>myservlet.DealLogin</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DealUpload</servlet-name>
+    <servlet-class>myservlet.DealUpload</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DealArticle</servlet-name>
+    <servlet-class>myservlet.DealArticle</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DealWatchArticle</servlet-name>
+    <servlet-class>myservlet.DealWatchArticle</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DealFindHimOrHer</servlet-name>
+    <servlet-class>myservlet.DealFindHimOrHer</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DealExitLogin</servlet-name>
+    <servlet-class>myservlet.DealExitLogin</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DealCouple</servlet-name>
+    <servlet-class>myservlet.DealCouple</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DealRegister</servlet-name>
+    <url-pattern>/PageDealRegister</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DealLogin</servlet-name>
+    <url-pattern>/PageDealLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DealUpload</servlet-name>
+    <url-pattern>/PageDealUpload</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DealArticle</servlet-name>
+    <url-pattern>/PageDealArticle</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DealWatchArticle</servlet-name>
+    <url-pattern>/PageDealWatchArticle</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DealFindHimOrHer</servlet-name>
+    <url-pattern>/PageDealFindHimOrHer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DealExitLogin</servlet-name>
+    <url-pattern>/PageDealExitLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DealCouple</servlet-name>
+    <url-pattern>/PageDealCouple</url-pattern>
+  </servlet-mapping>
+</web-app>

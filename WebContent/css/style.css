@@ -1,0 +1,124 @@
+html, body{
+   font-family: 'Roboto Slab', serif;
+   font-size: 100%;
+   background:#fff; 
+   position:relative;
+   margin-left:auto;
+   margin-right:auto;
+}
+body a{
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+
+.header {
+	background: url(../image/welcome/hunt-top.jpg)no-repeat center top;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size: cover;
+	width:880px;
+	height:272px;
+	overflow:hidden;
+	padding:0px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.nav1 { width:100%;}
+ul.simple-toggle { list-style: none; padding: 0px;  text-align:right; }
+ul.simple-toggle li { display: inline-block;   margin-top:238px; text-align: left;}
+ul.simple-toggle li a.logo:hover{	border-bottom:none; }
+ul.simple-toggle li a { 
+  display: block;
+  margin: 0px 15px;
+  text-decoration: none;
+  color: #000000;
+  font-weight: 100;
+  font-size: 17px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}  
+ul.simple-toggle li.active a{	color:#FFFFFF;}
+ul.simple-toggle li a:hover { color:#FFFFFF;}
+
+#footer
+{
+    width:880px;
+	color:#ccc;
+	text-align:right;
+	font-family:Tahoma;
+	font-size:10px;
+	overflow:hidden;
+	padding:0px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.basicdiv
+{
+    width:880px;
+	overflow:hidden;
+	padding:0px;
+	margin-left:auto;
+	margin-right:auto;
+}
+.cardiv
+{
+   overflow:hidden;
+   height:500px;
+   width:880px;
+   margin-right:0px;
+   margin-top:0;
+}
+.anchor-link { 
+	display: none; 
+	text-align: center;
+	margin-top:20px;
+    margin-right: 10px;
+    float: right; 
+ }
+.img-responsive
+{
+    width:100%;
+    height:100%;
+}
+.img-center
+{
+    margin-left:auto;
+    margin-right:auto;
+}
+img.headimag
+{
+    margin-left:400px;
+    margin-right:auto;
+    width:100px;
+    height:100px;
+}
+.table-center
+{
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    table-layout:auto;
+}
+table.table-full
+{
+    margin:0px;
+    padding:0px;    
+}
+table.table-full tr.tr-login{     height:300px; }
+table.table-full tr.tr-login  td{   width:440px; }
+tr.tr-input td
+{
+    height:60px;
+}
+.td-nav
+{
+    width:880px;
+    text-align:left;
+    table-layout:auto;
+}
